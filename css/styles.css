@@ -1,0 +1,153 @@
+:root{
+    --primary-text-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+}
+
+/* основной цвет #212121*/
+/* вспомогательный цвет #757575 */
+/* синий #2196F3 */
+/* белый #FFFFFF */
+
+/*--Header site--*/
+.logo-header {
+    color: var(--accent-color);
+}
+
+.logo {
+    color: #000000;
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--accent-color);
+}
+
+ul{
+    list-style: none;
+}
+
+/* menu nav */
+
+.site-nav .link {
+    color: var(--primary-text-color);
+    /* цвет указан в боди */
+}
+
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.e-mail-nav,
+.tel-nav {
+    color: var(--text-color);
+}
+
+.e-mail-nav:hover,
+.e-mail-nav:focus,
+.tel-nav:hover,
+.tel-nav:focus{
+    color: var(--accent-color);
+}
+
+/* -- Main site */
+/* Hero */
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-header {
+    color: var(--primary-white-color);
+}
+
+.hero-button {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+/* Benefits (Переваги) */
+.benefits-title {
+    color: var(--primary-text-color);
+}
+
+.benefits-text {
+    color: var(--text-color);
+}
+
+/* Work */
+.work-title {
+    color: var(--primary-text-color);
+    /* цвет указан в боди */
+}
+
+/* Team */
+.team-title {
+    color: var(--primary-text-color);
+    /* цвет указан в боди */
+}
+
+.team-name {
+    color: var(--primary-text-color);
+    /* цвет указан в боди */
+}
+
+.team-profession {
+    color: var(--text-color);
+}
+
+/* --Footer-- */
+.logo-footer {
+    color: var(--accent-color);
+}
+
+.logo-address {
+    color: var(--primary-white-color);
+}
+
+.logo-address:hover,
+.logo-address:focus {
+    color: var(--accent-color);
+}
+
+.address {
+    background-color: #2F303A;
+}
+
+.adress-footer {
+    color: var(--primary-white-color);
+}
+
+.adress-footer:hover,
+.adress-footer:focus {
+    color: var(--accent-color);
+}
+
+.address-mail {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-mail:hover,
+.address-mail:focus {
+    color: var(--accent-color);
+}
+
+.address-tel {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-tel:hover,
+.address-tel:focus {
+    color: var(--accent-color);
+}
